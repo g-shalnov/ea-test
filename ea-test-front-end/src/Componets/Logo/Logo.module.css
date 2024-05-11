@@ -1,0 +1,38 @@
+
+/*************************************phone*************************/
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 186px;
+    z-index: 1;
+}
+
+.logo .link {
+    cursor: pointer;
+}
+
+.leftFrame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.rightFrame {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+
+/**************tablet******************************/
+.logo_m {
+    height: 326px;
+}
+
+/**************desktop******************************/
+.logo_l {
+    height: 213px;
+}

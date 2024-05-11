@@ -1,0 +1,36 @@
+/**************phone******************************/
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 36px 0 36px;
+}
+
+.timer h1 {
+    /*font-size: 36px;*/
+    /*line-height: 104%;*/
+    /*letter-spacing: 0;*/
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    color: rgba(22, 44, 78, 0.39);
+    margin: 0 0 16px 0;
+}
+.timer p{
+    margin: 0 0 40px 0;
+}
+
+/**************tablet******************************/
+.timer_m h1 {
+    margin: 0 0 20px 0;
+}
+
+/**************desktop******************************/
+.timer_l h1 {
+    font-size: 72px;
+    margin: 0 0 8px 0;
+}
+.timer_l p{
+    font-size: 18px;
+    margin: 0 0 32px 0;
+}

@@ -1,0 +1,82 @@
+/**************phone******************************/
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 141px;
+    background: #162C4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    border: 1px #FFFFFF solid;
+    border-radius: 40px;
+    background: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 4px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 41px;
+}
+
+.form input {
+    border: none;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+    flex-grow: 2;
+}
+
+.form button {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    background: #DF2224;
+    border-radius: 100px;
+    border: #DF2224 1px solid;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.form button img {
+    width: 15px;
+    height: 15px;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
+/**************tablet******************************/
+.footer_m {
+    height: 160px;
+}
+
+.form_m {
+    width: 360px;
+}
+
+/**************desktop******************************/
+.footer_l {
+    height: 192px;
+}
+.form_l {
+    width: 440px;
+    height: 59px;
+}
+.form_l input {
+    font-size: 18px;
+}
+
+.form_l button {
+    width: 43px;
+    height: 43px;
+}
+
+.form_l button img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,28 @@
+.popup {
+    position: absolute;
+    background-color: rgba(22, 44, 78, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popup .message {
+    height: 370px;
+    width: 320px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popup .message h1 {
+
+}
+
+

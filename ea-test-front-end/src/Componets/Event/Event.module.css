@@ -1,0 +1,42 @@
+/*************************************phone*************************/
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 185px;
+}
+.event p{
+    margin: 0 0 15px 0;
+}
+
+.event button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 20px;
+    border-radius: 40px;
+    border: 1px #1D4169 solid;
+    background: #1D4169;
+    cursor: pointer;
+
+    width: 240px;
+    height: 60px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+/*************************************tablet*************************/
+.event_m {
+    min-height: 268px;
+}
+
+/*************************************desktop*************************/
+.event_l {
+    min-height: 367px;
+}
+
+.event_l p{
+    font-size: 18px;
+    margin: 0 0 12px 0;
+}

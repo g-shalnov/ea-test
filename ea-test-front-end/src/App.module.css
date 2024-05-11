@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #162C4E;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 104%;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162C4E;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px grey solid;
+}
+
+button {
+  display: flex;
+  border-radius: 40px;
+  border: 1px #1D4169 solid;
+  background: #1D4169;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+  width: 240px;
+  height: 60px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+
+
